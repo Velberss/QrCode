@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QrCode</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="tittle">
+                <h1>Crie seu codigo QR code com um click!</h1>
+                <p>Cole uma URL ou insira um texto!</p>
+            </div>
+            <input id="campo-qr" class="input" placeholder="Entre com o texto ou url">
+            <button id="btn-gerar">Gerar Codigo QR</button>
+        </div>
+        <div class="qr-code">
+            <div class="box">
+            </div>
+            <a href="" id="download-link">Download</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
